@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrace</title>
+  <link rel="stylesheet" href="form.css">
+  <link rel="stylesheet" href="/assets/styles/styles.css">
+</head>
+<body>
+<header>
+  <nav class="navigation-menu">
+    <ul class="nav-links">
+      <li class="nav-link"><a href="../index.html">Home</a></li>
+      <li class="nav-link"><a href="../services.html">Služby</a></li>
+      <li class="nav-link"><a href="../kontakt.html">Kontakt</a></li>
+      <li class="nav-link"><a href="/registration/index.html">Registrace</a></li>
+      <li class="nav-link"><a href="../úkol/index.html">FAQ</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h1 class="registration-heading">Vytvoření zákaznického účtu</h1>
+  <form class="sign-up-form">
+    <label for="title">Oslovení</label>
+        <select id="title">
+          <option>Pan</option>
+          <option>Paní</option>
+          <option>Nevím</option>
+        </select>
+    <label for="first-name">Křestní jméno</label>
+    <input type="text" id="first-name">
+    <label for="last-name">Příjmení</label>
+    <input type="text" id="last-name">
+    <label for="mail">E-mail</label>
+    <input type="email" id="mail">
+    <label for="birth-date"></label>
+    <input type="date" id="birth-date">
+    <label for="password">Heslo</label>
+    <input type="password" id="password">
+    <input type="checkbox" id="agree-terms">
+    <label for="agree-terms">Podmínky použití a nejsem robot!</label>
+    <button type="submit">Registrovat</button>
+  </form>
+</main>
+<footer>
+  <nav class="navigation-menu">
+    <ul class="nav-links">
+      <li class="nav-link">Podmínky použití</li>
+      <li class="nav-link">Všechna práva jsou vyhrazena</li>
+      <li class="nav-link">Kontakt</li>
+    </ul>
+  </nav>
+</footer>
+</body>
+</html>

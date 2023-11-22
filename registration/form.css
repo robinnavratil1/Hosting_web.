@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.sign-up-form label,
+.sign-up-form select,
+.sign-up-form input {
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.sign-up-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.sign-up-form label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign-up-form input,
+.sign-up-form select {
+    padding: 4px;
+}
+
